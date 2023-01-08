@@ -1,11 +1,15 @@
 import React from "react";
-import Navbar from "./components/Navbar";
+import { Nav, NavbarContainer, NavLogo } from "./navbarElements";
 
 const Navbar = () => {
   return (
-    <div>
-      <Navbar></Navbar>
-    </div>
+    <>
+      <Nav>
+        <NavbarContainer>
+          <NavLogo>Vell</NavLogo>
+        </NavbarContainer>
+      </Nav>
+    </>
   );
 };
 
