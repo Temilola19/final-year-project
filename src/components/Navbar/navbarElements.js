@@ -29,7 +29,7 @@ export const NavbarContainer = styled.div`
   max-width: 1100px;
 `;
 export const NavLogo = styled(LinkR)`
-  color: green;
+  color: #01bf71;
   justify-self: flex-start;
   cursor: pointer;
   display: flex;
@@ -79,8 +79,12 @@ export const NavLinks = styled(LinkS)`
   cursor: pointer;
 
   &.active {
-    border.bottom: 3px solid green;
+    border.bottom: 3px solid #01bf71;
   }
+
+  &:hover {
+    transition: all 0.2s ease-in-out;
+   color: #01bf71;
 `;
 
 export const NavBtn = styled.nav`
@@ -107,6 +111,6 @@ export const NavBtnLink = styled(LinkR)`
   &:hover {
     transition: all 0.2s ease-in-out;
     background: #fff;
-    color: #010606;
+    color: #01bf71;
   }
 `;
